@@ -1,0 +1,61 @@
+body, html {
+  
+  background-image: url("Dojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  font-family:  papyrus;
+}
+
+
+
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  /*background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgba(0,0,0, 0.4); *//* Black w/opacity/see-through */*/
+  color: black;
+  font-weight: bold;
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+a:link, a:visited {
+    font-family:  Rockwell;
+    font-size: 1.5em;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  border:hidden;
+position: center;
+  top: 40%;
+  left: 30%;
+  transform: translate(1%, 30%);
+  z-index: 2; 
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  padding: 9px 9px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.8;
+  text-transform: uppercase;
+  border-radius: 300px;
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+a:hover, a:visited, a:link, a:active
+{  
+    text-decoration: none;
+     background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
