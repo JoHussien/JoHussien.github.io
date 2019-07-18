@@ -8,6 +8,9 @@
 }
 
 body {
+  background: url("videobackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
   font-family: Arial;
   font-size: 17px;
@@ -31,6 +34,9 @@ body {
 }
 
 #myBtn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -57,8 +63,8 @@ body {
 
 <div class="content">
   <h1>Welcome bro! Need HELP, Get on BOARD:)</h1>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-  <a  href="E:\Compter Science\projects\Web Development\mainindex.html"><button id="myBtn">CONTINUE</button></a>
+  <a  href="https://www.youtube.com/watch?v=SF6ipPxP2rQ&feature=youtu.be"><button id="myBtn">The VIDEO</button></a>
+  <a  href="E:\Compter Science\projects\Web Development\mainindex.html"><button id="myBtn">CONTINUE to Website</button></a>
 <!--   <button id="myBtn" href="E:\Compter Science\projects\Web Development\mainindex.html">Continue</button>
  --></div>
 
@@ -66,15 +72,7 @@ body {
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+
 </script>
 
 </body>
