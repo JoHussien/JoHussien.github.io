@@ -19,7 +19,7 @@ body, html {
 
  
 
-.img1{ background-image: url("mainindex images/Dojo.jpg"); }
+.img1{ background-image: url("Dojo.jpg"); }
 /* The Overlay (background) */
 
 .overlay {
@@ -95,7 +95,7 @@ body, html {
   background-size: cover;
 }
 
-.img2{ background-image: url("mainindex images/h2.jpg"); 
+.img2{ background-image: url("h2.jpg"); 
 opacity: 0.8;}
-.img3{ background-image: url("mainindex images/h1.jpg");
+.img3{ background-image: url("h1.jpg");
 opacity: 1; }
