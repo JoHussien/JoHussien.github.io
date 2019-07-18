@@ -45,6 +45,7 @@ header.startup h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100px;
 }
 
 .btn-xl {
