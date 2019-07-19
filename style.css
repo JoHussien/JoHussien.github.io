@@ -6,13 +6,16 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif; color: black;
 }
 
 hr {
   max-width: 65px;
   border-width: 3px;
   border-color: #F05F44; 
+}
+h1{
+	color:black;
 }
 
 .faded {
@@ -21,7 +24,7 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("images/background-index.jpg");
+  background-image: url("images/back2.jpg");
   background-size: cover;
   height: 100%;
 }
