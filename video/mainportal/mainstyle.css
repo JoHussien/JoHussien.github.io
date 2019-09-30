@@ -1,9 +1,11 @@
-
-
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Back2 (2).jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .bg-image {
@@ -53,7 +55,7 @@ body, html {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   font-size: 36px;
-  color: #818181;
+  color: #FFF8DC;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -84,13 +86,13 @@ body, html {
 
 	
 	
-.bg-image>img3 {
+/*.bg-image>img3 {
   /* Full height */
   
   height: 65%; 
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /*background-position: center;
   background-repeat: repeat;
   background-size: cover;
 }
@@ -98,4 +100,4 @@ body, html {
 .img2{ background-image: url("h2.jpg"); 
 opacity: 0.8;}
 .img3{ background-image: url("h1.jpg");
-opacity: 1; }
+opacity: 1; }*/
